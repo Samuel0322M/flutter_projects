@@ -5,7 +5,7 @@ class TextExample extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(children: [Spacer(), Text("Texto basico"), 
+    return const Column(children: [Spacer(), Text("Texto hello. its me"), 
     Text("Texto Grande", style: TextStyle(fontSize: 24)),
     Text("Texto Grande", style: TextStyle(fontSize: 45, fontWeight: FontWeight.bold)),
     Text("Texto Grande", style: TextStyle(fontSize: 24, fontStyle: FontStyle.italic)),
